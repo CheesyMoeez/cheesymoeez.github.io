@@ -1,7 +1,7 @@
 /*
   CheesyMoeez
   I barely used AI, if any at all. Hence the absolute bad code.
-  Nonetheless, still proud of my first portfolio site, more will come soon.
+  Nonetheless, still proud of my first portfolio site, more better versions will definitely come soon.
 */
 
 @font-face {
@@ -24,14 +24,17 @@
 }
 
 body {
-  /* background-color: #282a36; */
+/* background-color: #282a36; */
   background: #282a36;
   background: radial-gradient(
     circle,
     rgba(40, 42, 54, 1) 0%,
     rgba(35, 37, 47, 1) 100%
   );
-  /* center the center box vertically */
+}
+
+body > main {
+    /* center the center box vertically */
   display: flex;
   height: 100vh;
   align-items: center;
